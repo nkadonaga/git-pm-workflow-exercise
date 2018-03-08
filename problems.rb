@@ -1,9 +1,7 @@
-# TODO: Fix this whole function
-def printHi3TimesNTimes(n)
-  for i in 0..n
-    for j in 0..3
-      puts "Hi"
-    end
+def printHi(n)
+  hiString = "Hi!"
+  for i in 0..(4*n)
+    puts hiString
   end
 end
 
